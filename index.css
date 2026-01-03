@@ -51,7 +51,7 @@ input{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-button{
+.input-box button{
     cursor: pointer;
     background-color: rgb(214, 224, 162);
     color: black;
@@ -62,19 +62,20 @@ button{
     margin: 10px 20px;
 }
 
-button:hover{
+.input-box button:hover{
     color: black;
     background-color: rgb(1, 146, 230);
 }
 
-#displayAge{
-    padding: 10px;
+#result{
+    font-size: 28px;
     position: absolute;
-    font-style: italic;
-    font-size: 24px;
-    top: 60%;
-    bottom: 60%;
-    left: 45%;
-    margin-top: 40px;
-    transform: translate(-60%, -60%);
+    top: 65%;
+    left: 30%;
+    margin-left: 100px;
 } 
+
+#result span{
+    color: rgb(37, 34, 214);
+    font-weight: bold;
+}

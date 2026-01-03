@@ -9,11 +9,12 @@
   <body>
     <h1 class="title">Age Calculator</h1>
     <div class="main-container">
-      <input type="date" />
-      <button>Calculate</button>
-      
+      <div class="input-box">
+        <input type="date" id="date" />
+        <button onclick="calculateAge()">Calculate</button>
+      </div>
     </div>
-    <div id="displayAge">You are {age} {years}, {months}</div>
+    <div id="result"></div>
   </body>
   <script src="script.js"></script>
 </html>

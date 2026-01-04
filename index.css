@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(187, 138, 236);
+    background-color: rgb(178, 169, 186);
 }
 
 .main-container{
@@ -20,7 +20,7 @@ body{
     transform: translate(-50%, -50%);
     padding: 25px;
     border-radius: 10px;
-    box-shadow: rgb(122, 43, 201);
+    box-shadow: rgb(189, 175, 202);
     border: none;
 }
 
@@ -35,6 +35,7 @@ body{
     width: 550px;
     font-size: 66px;
     font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
 
@@ -60,6 +61,7 @@ input{
     border-radius: 5px;
     width: 25%;
     margin: 10px 20px;
+    border: none;
 }
 
 .input-box button:hover{
